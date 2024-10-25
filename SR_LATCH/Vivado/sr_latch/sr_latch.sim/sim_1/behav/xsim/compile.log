@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sr_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sr_latch_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch/sr_latch.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

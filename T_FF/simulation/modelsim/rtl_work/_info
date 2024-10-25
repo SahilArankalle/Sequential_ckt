@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/simulation/modelsim
+vd_ff
+Z1 !s110 1729314097
+!i10b 1
+!s100 Han99LC9AnTU^8[<?7dGb1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IazEPcM`RLTLeQzMlL317U2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1729264707
+8C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/d_ff.v
+FC:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/d_ff.v
+!i122 1
+L0 1 15
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1729314097.000000
+!s107 C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/d_ff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF|C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/d_ff.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF}
+Z8 tCvgOpt 0
+vt_ff
+R1
+!i10b 1
+!s100 4B`GWVB;SN24;Ciho@NM02
+R2
+I^CFCKndPo7=J5]DT=XK]53
+R3
+R0
+w1729314049
+8C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/t_ff.v
+FC:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/t_ff.v
+!i122 0
+L0 1 10
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/t_ff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF|C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/t_ff.v|
+!i113 1
+R6
+R7
+R8
+vt_ff_tb
+!s110 1729314098
+!i10b 1
+!s100 KzHPnLjMKJbl28`YaGc4;2
+R2
+IP>BU1ZQE?fC2cJXA7HRnU1
+R3
+R0
+w1729313775
+8C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/t_ff_tb.v
+FC:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/t_ff_tb.v
+!i122 2
+L0 1 45
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/t_ff_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF|C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/t_ff_tb.v|
+!i113 1
+R6
+R7
+R8

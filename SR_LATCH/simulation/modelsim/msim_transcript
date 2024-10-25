@@ -1,0 +1,60 @@
+# Reading pref.tcl
+# do sr_latch_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab\ 4/SR_LATCH {C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:10:20 on Oct 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH" C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch.v 
+# -- Compiling module sr_latch
+# 
+# Top level modules:
+# 	sr_latch
+# End time: 12:10:20 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab\ 4/SR_LATCH {C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:10:20 on Oct 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH" C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch_tb.v 
+# -- Compiling module sr_latch_tb
+# 
+# Top level modules:
+# 	sr_latch_tb
+# End time: 12:10:20 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxv_ver -L rtl_work -L work -voptargs="+acc"  sr_latch_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxv_ver -L rtl_work -L work -voptargs=""+acc"" sr_latch_tb 
+# Start time: 12:10:21 on Oct 19,2024
+# Loading work.sr_latch_tb
+# Loading work.sr_latch
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 20 ps ###############
+#       Signal: /sr_latch_tb/q @ sub-iteration 0 at Value St0 (C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch_tb.v:3)
+#       Signal: /sr_latch_tb/dut/w1 @ sub-iteration 2 at Value St0 (C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch.v:4)
+#   Active process: /sr_latch_tb/dut/N1 @ sub-iteration 3
+#     Source: C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch.v:6
+#       Signal: /sr_latch_tb/q @ sub-iteration 4 at Value St1 (C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch_tb.v:3)
+#       Signal: /sr_latch_tb/dut/w1 @ sub-iteration 6 at Value St1 (C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch.v:4)
+#   Active process: /sr_latch_tb/dut/N1 @ sub-iteration 7
+#     Source: C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch.v:6
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 20 ps.
+# End time: 12:10:47 on Oct 19,2024, Elapsed time: 0:00:26
+# Errors: 1, Warnings: 0

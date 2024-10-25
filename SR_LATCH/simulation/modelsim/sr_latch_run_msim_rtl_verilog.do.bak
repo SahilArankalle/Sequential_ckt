@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab\ 4/SR_LATCH {C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch.v}
+

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/JK_FF/jk_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jk_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/JK_FF/jk_ff_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jk_ff_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/JK_FF/jk_ff/jk_ff.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

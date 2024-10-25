@@ -1,0 +1,150 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
+
+// DATE "10/19/2024 10:26:46"
+
+// 
+// Device: Altera 5M40ZM64C4 Package MBGA64
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module t_ff (
+	t,
+	clk,
+	rst,
+	q,
+	qb);
+input 	t;
+input 	clk;
+input 	rst;
+inout 	q;
+output 	qb;
+
+// Design Ports Information
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \clk~combout ;
+wire \rst~combout ;
+wire \t~combout ;
+wire \comb_4|q~regout ;
+
+
+// Location: PIN_F8,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \clk~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\clk~combout ),
+	.padio(clk));
+// synopsys translate_off
+defparam \clk~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_G8,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \rst~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\rst~combout ),
+	.padio(rst));
+// synopsys translate_off
+defparam \rst~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_H8,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \t~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\t~combout ),
+	.padio(t));
+// synopsys translate_off
+defparam \t~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: LC_X7_Y1_N2
+maxv_lcell \comb_4|q (
+// Equation(s):
+// \comb_4|q~regout  = DFFEAS(((!\rst~combout  & (\t~combout  $ (\comb_4|q~regout )))), \clk~combout , VCC, , , , , , )
+
+	.clk(\clk~combout ),
+	.dataa(vcc),
+	.datab(\rst~combout ),
+	.datac(\t~combout ),
+	.datad(\comb_4|q~regout ),
+	.aclr(gnd),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.cin(gnd),
+	.cin0(gnd),
+	.cin1(vcc),
+	.inverta(gnd),
+	.regcascin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.combout(),
+	.regout(\comb_4|q~regout ),
+	.cout(),
+	.cout0(),
+	.cout1());
+// synopsys translate_off
+defparam \comb_4|q .lut_mask = "0330";
+defparam \comb_4|q .operation_mode = "normal";
+defparam \comb_4|q .output_mode = "reg_only";
+defparam \comb_4|q .register_cascade_mode = "off";
+defparam \comb_4|q .sum_lutc_input = "datac";
+defparam \comb_4|q .synch_mode = "off";
+// synopsys translate_on
+
+// Location: PIN_H5,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
+maxv_io \qb~I (
+	.datain(!\comb_4|q~regout ),
+	.oe(vcc),
+	.combout(),
+	.padio(qb));
+// synopsys translate_off
+defparam \qb~I .operation_mode = "output";
+// synopsys translate_on
+
+// Location: PIN_H6,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
+maxv_io \q~I (
+	.datain(\comb_4|q~regout ),
+	.oe(vcc),
+	.combout(),
+	.padio(q));
+// synopsys translate_off
+defparam \q~I .operation_mode = "bidir";
+// synopsys translate_on
+
+endmodule

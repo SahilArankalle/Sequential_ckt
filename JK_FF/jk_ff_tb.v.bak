@@ -1,0 +1,44 @@
+module jk_ff_tb();
+reg j,k,clk,rst;
+wire q,qb;
+
+jk_ff dut (j,k,clk,rst,q,qb);
+
+initial 
+begin
+clk = 0;
+forever #10 clk = ~clk;
+end
+
+test rst_dut();
+begin
+@ (negedge clk)
+rst = 1'b1;
+@ (negedge clk)
+rst = 1'b0;
+end
+endtask
+
+task jkin (input i);
+begin
+@ (negedge clk)
+jkin = i;
+end
+endtask
+
+initial 
+begin
+rst_dut;
+jkin(0);
+jkin(1);
+jkin(0);
+jkin(1);
+jkin(1);
+rst_dut;
+jkin(0);
+jkin(1);
+#10;
+$finish;
+end
+endmodule
+

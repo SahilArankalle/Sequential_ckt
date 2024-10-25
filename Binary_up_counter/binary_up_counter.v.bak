@@ -1,0 +1,15 @@
+module binary_up_counter(din,load,clk,reset,count);
+input [3:0] din;
+input load,clk,reset;
+output reg count;
+
+always @ (posedge clk)
+begin
+	if (~reset)
+		count <= 4'b0000;
+	else if (load)
+		count <= din;
+	else
+		count <= count + 1'b1;
+end
+endmodule

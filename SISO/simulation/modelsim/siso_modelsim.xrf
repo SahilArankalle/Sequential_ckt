@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SISO/siso.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SISO/siso_tb.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SISO/db/siso.cbx.xml
+design_name = siso
+instance = comp, \clk~I , clk, siso, 1
+instance = comp, \rst~I , rst, siso, 1
+instance = comp, \serial_input~I , serial_input, siso, 1
+instance = comp, \w[0] , w[0], siso, 1
+instance = comp, \w[1] , w[1], siso, 1
+instance = comp, \w[2] , w[2], siso, 1
+instance = comp, \w[3] , w[3], siso, 1
+instance = comp, \serial_output~reg0 , serial_output~reg0, siso, 1
+instance = comp, \serial_output~I , serial_output, siso, 1

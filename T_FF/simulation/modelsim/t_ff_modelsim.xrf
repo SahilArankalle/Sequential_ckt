@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/t_ff.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/t_ff_tb.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/T_FF/d_ff.v
+design_name = t_ff
+instance = comp, \clk~I , clk, t_ff, 1
+instance = comp, \rst~I , rst, t_ff, 1
+instance = comp, \t~I , t, t_ff, 1
+instance = comp, \comb_4|q , comb_4|q, t_ff, 1
+instance = comp, \qb~I , qb, t_ff, 1
+instance = comp, \q~I , q, t_ff, 1

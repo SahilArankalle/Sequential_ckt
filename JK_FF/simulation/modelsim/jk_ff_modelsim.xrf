@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/JK_FF/jk_ff.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/JK_FF/jk_ff_tb.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/JK_FF/db/jk_ff.cbx.xml
+design_name = jk_ff
+instance = comp, \clk~I , clk, jk_ff, 1
+instance = comp, \j~I , j, jk_ff, 1
+instance = comp, \k~I , k, jk_ff, 1
+instance = comp, \rst~I , rst, jk_ff, 1
+instance = comp, \q~reg0 , q~reg0, jk_ff, 1
+instance = comp, \q~I , q, jk_ff, 1
+instance = comp, \qb~I , qb, jk_ff, 1

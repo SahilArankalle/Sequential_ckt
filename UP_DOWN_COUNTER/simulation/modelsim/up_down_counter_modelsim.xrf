@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/UP_DOWN_COUNTER/up_down_counter.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/UP_DOWN_COUNTER/up_down_counter_tb.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/UP_DOWN_COUNTER/db/up_down_counter.cbx.xml
+design_name = up_down_counter
+instance = comp, \clk~I , clk, up_down_counter, 1
+instance = comp, \rst~I , rst, up_down_counter, 1
+instance = comp, \count[0]~reg0 , count[0]~reg0, up_down_counter, 1
+instance = comp, \mode~I , mode, up_down_counter, 1
+instance = comp, \count[1]~9 , count[1]~9, up_down_counter, 1
+instance = comp, \count[1]~reg0 , count[1]~reg0, up_down_counter, 1
+instance = comp, \count[2]~reg0 , count[2]~reg0, up_down_counter, 1
+instance = comp, \count[3]~reg0 , count[3]~reg0, up_down_counter, 1
+instance = comp, \count[0]~I , count[0], up_down_counter, 1
+instance = comp, \count[1]~I , count[1], up_down_counter, 1
+instance = comp, \count[2]~I , count[2], up_down_counter, 1
+instance = comp, \count[3]~I , count[3], up_down_counter, 1

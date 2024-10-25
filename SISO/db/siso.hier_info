@@ -1,0 +1,15 @@
+|siso
+clk => serial_output~reg0.CLK
+clk => w[0].CLK
+clk => w[1].CLK
+clk => w[2].CLK
+clk => w[3].CLK
+rst => w.OUTPUTSELECT
+rst => w.OUTPUTSELECT
+rst => w.OUTPUTSELECT
+rst => w.OUTPUTSELECT
+rst => serial_output~reg0.ENA
+serial_input => w.DATAA
+serial_output <= serial_output~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

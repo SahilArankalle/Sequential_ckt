@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/simulation/modelsim
+vsr_latch
+Z1 !s110 1729320020
+!i10b 1
+!s100 B8EohD1WHg4fJ3nG6Ri460
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I24YgCVKjfHbeFF7Z7FiF>1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1729319464
+8C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch.v
+FC:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch.v
+!i122 0
+L0 1 12
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1729320020.000000
+!s107 C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH|C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH}
+Z8 tCvgOpt 0
+vsr_latch_tb
+R1
+!i10b 1
+!s100 WMffTlD;G?eWS0[5czg@J2
+R2
+ILD8hCL32OLi62@280olbe1
+R3
+R0
+w1729319989
+8C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch_tb.v
+FC:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch_tb.v
+!i122 1
+L0 1 17
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH|C:/Users/Sahil/Desktop/Maven/Programs/Lab 4/SR_LATCH/sr_latch_tb.v|
+!i113 1
+R6
+R7
+R8
